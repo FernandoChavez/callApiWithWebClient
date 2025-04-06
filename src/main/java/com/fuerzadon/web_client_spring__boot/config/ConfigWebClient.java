@@ -16,6 +16,8 @@ public class ConfigWebClient {
         return WebClient.builder()
                 .baseUrl(url)
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
+                //La siguiente linea es por si queremos enviar un xml en vez de un json
+                //.defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_XML_VALUE)
                 .build();
     }
 
