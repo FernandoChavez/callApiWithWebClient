@@ -10,3 +10,5 @@ Instrucciones para que funcione Prometheus y Grafana
   -Grafana: http://localhost:3000/
 
 Nota: Si quieres saber mas sobre la configuracion que se hizo en estas 2 herramientas, favor de revisar los archivos "docker-compose" y "config/prometheus/prometheus.yml"
+
+Video de referencia: https://www.youtube.com/watch?v=JnO0Oh9J6Iw
